@@ -7,15 +7,10 @@
     tools:context=".MainActivity">
 
     <include
-        layout="@layout/activity_main_background"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"/>
-
-    <include
         layout="@layout/activity_main_table"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"/>
+        android:layout_height="match_parent"
+        android:layout_gravity="center" />
+
 
 </FrameLayout>

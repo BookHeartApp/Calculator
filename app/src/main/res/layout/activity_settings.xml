@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivitySettings"
+    android:orientation="vertical">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/switch_color_theme"
+                style="@style/Switch_Button"
+                android:text="@string/color_theme"
+                android:backgroundTint="@color/colorAC"
+                android:textColor="@color/colorAccent"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/switch_white_theme"
+                style="@style/Switch_Button"
+                android:text="@string/white_theme"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/colorAccent"
+                />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/switch_black_theme"
+                style="@style/Switch_Button"
+                android:text="@string/black_theme"
+                android:backgroundTint="#00000000"
+                android:textColor="@color/colorAccent"/>
+
+
+</TableLayout>
+</TableLayout>

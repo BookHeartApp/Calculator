@@ -3,13 +3,16 @@ package com.bogomolov.calculator;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.PersistableBundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,7 +23,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+
+        setContentView(R.layout.activity_main_table);
 
         if (savedInstanceState == null) {
             makeToast("Первый запуск - onCreat()");
@@ -79,8 +83,18 @@ public class MainActivity extends AppCompatActivity {
         for (int i = 0; i < actionsId.length; i++){
             findViewById(actionsId[i]).setOnClickListener(actionButtonClickListener);
         }
-        
+
+        Button button_setting = findViewById(R.id.button_setting);
+        button_setting.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent runSettings = new Intent(MainActivity.this, ActivitySettings.class);
+                startActivity(runSettings);
+            }
+        });
+
     }
+
 
     @Override
     protected void onStart() {

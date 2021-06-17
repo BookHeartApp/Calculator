@@ -4,6 +4,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#024E47"
+        android:gravity="end">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_setting"
+            style="@style/Button_1"
+            android:layout_span="1"
+            android:text="@string/button_setting" />
+
+    </TableRow>
+
     <TableLayout
         style="@style/TableLayout">
 
@@ -124,5 +138,7 @@
             style="@style/Button_3"/>
 
     </TableRow>
+
     </TableLayout>
+
 </TableLayout>

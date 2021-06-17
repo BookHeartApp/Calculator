@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="end"
+        android:background="@color/black">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_setting"
+            style="@style/Button_1_BT"
+            android:text="@string/button_setting"
+            android:background="@drawable/borderbottom"/>
+
+    </TableRow>
+
+    <TableLayout
+        style="@style/TableLayout_BT">
+
+        <TableRow
+            style="@style/TableRow_BT">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/table"
+                style="@style/Table_BT"
+                android:background="@color/black"/>
+
+        </TableRow>
+
+        <TableRow
+            style="@style/TableRow_BT">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_ac"
+                android:text="@string/_ac"
+                android:layout_span="3"
+                android:background="@drawable/borderbottom"
+                style="@style/Button_1_BT"
+                />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_division"
+                style="@style/Button_2_BT"
+                android:background="@drawable/borderbottom"
+                app:backgroundTint="#FF5722"
+                android:text="@string/_division"
+                 />
+
+        </TableRow>
+
+
+        <TableRow
+            style="@style/TableRow_BT">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_1"
+                android:text="@string/_1"
+                android:background="@drawable/borderbottom"
+                style="@style/Button_1_BT"/>
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_2"
+                android:text="@string/_2"
+                android:background="@drawable/borderbottom"
+                style="@style/Button_1_BT"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_3"
+                android:text="@string/_3"
+                android:background="@drawable/borderbottom"
+                style="@style/Button_1_BT"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_multiplication"
+                android:text="@string/_multiplication"
+                android:background="@drawable/borderbottom"
+                app:backgroundTint="#FF5722"
+                style="@style/Button_2_BT"/>
+
+        </TableRow>
+
+        <TableRow
+            style="@style/TableRow_BT">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_4"
+                android:text="@string/_4"
+                android:background="@drawable/borderbottom"
+                style="@style/Button_1_BT"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_5"
+                android:text="@string/_5"
+                android:background="@drawable/borderbottom"
+                style="@style/Button_1_BT"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_6"
+                android:text="@string/_6"
+                android:background="@drawable/borderbottom"
+                style="@style/Button_1_BT"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_minus"
+                android:text="@string/_minus"
+                android:background="@drawable/borderbottom"
+                app:backgroundTint="#FF5722"
+                style="@style/Button_2_BT"/>
+        </TableRow>
+
+        <TableRow
+            style="@style/TableRow_BT">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_7"
+                android:text="@string/_7"
+                android:background="@drawable/borderbottom"
+                style="@style/Button_1_BT"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_8"
+                android:text="@string/_8"
+                android:background="@drawable/borderbottom"
+                style="@style/Button_1_BT"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_9"
+                android:text="@string/_9"
+                android:background="@drawable/borderbottom"
+                style="@style/Button_1_BT"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_plus"
+                android:text="@string/_plus"
+                android:background="@drawable/borderbottom"
+                app:backgroundTint="#FF5722"
+                style="@style/Button_2_BT"/>
+        </TableRow>
+
+        <TableRow
+            style="@style/TableRow_BT">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_0"
+                android:text="@string/_0"
+                android:background="@drawable/borderbottom"
+                android:layout_span="3"
+                style="@style/Button_1_BT"/>
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_result"
+                android:text="@string/_result"
+                android:background="@drawable/borderbottom"
+                app:backgroundTint="#FF5722"
+                style="@style/Button_2_BT"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+</TableLayout>

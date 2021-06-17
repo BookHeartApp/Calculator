@@ -19,4 +19,10 @@
     <string name="_minus">-</string>
     <string name="_plus">+</string>
     <string name="_result">=</string>
+    <string name="button_setting">setting</string>
+    <string name="header_setting">Setting</string>
+    <string name="color_theme">Color theme</string>
+    <string name="white_theme">White theme</string>
+    <string name="_run_app">Run App</string>
+    <string name="black_theme">Black theme</string>
 </resources>
